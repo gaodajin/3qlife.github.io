@@ -1,0 +1,42 @@
+* {
+    margin:0; padding:0;
+  }
+header {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(171, 224, 199);
+    }
+    .headline{
+        font-size: 32px;
+    }
+    .nav-list {
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 auto;
+    }
+    .nav-list-item {
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .left-column {
+    width: 30%;
+  }
+  
+  .middle-column {
+    width: 50%;
+  }
+  
+  .right-column {
+    width: 20%;
+  }
